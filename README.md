@@ -4,4 +4,5 @@ This is a README.md document where you can add descriptions, instructions, and b
 
 ### Active badges
 
-Enter your badge link here!
+[![CI-CD](https://github.com/AjaySingala/codio-github-demo/actions/workflows/CI-CD.yml/badge.svg)](https://github.com/AjaySingala/codio-github-demo/actions/workflows/CI-CD.yml)
+
