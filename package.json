@@ -5,7 +5,11 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "npx parcel build src/index.html",
-    "test": "jest"
+    "lint": "npx eslint examples/*.js",
+    "style": "prettier --check examples/example2.js",
+    "format": "prettier --write examples/example2.js",
+    "test": "jest",
+    "prepare": "husky install"    
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
