@@ -20,6 +20,9 @@ jobs:
       with: 
         name: assets
         path: dist
+    - uses: actions/download-artifact@v3    # download compiled code from build and make it available for Unit Tests 
+      with:
+        path: dist
     - name: Run Unit Tests                  # run Unit Tests using Jest
       run: npx yarn test
   #test:
